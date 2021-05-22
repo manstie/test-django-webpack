@@ -1,0 +1,6 @@
+# Django Server
+Django~=3.1
+Django-Admin~=2.0
+
+# Django work with webpack outputs
+django-manifest-loader~=1.0.0

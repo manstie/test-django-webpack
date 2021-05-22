@@ -1,0 +1,27 @@
+{
+  "name": "test-django-webpack",
+  "version": "1.0.0",
+  "description": "Trying to debug webpack issues",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch --progress --color",
+    "start": "webpack --config webpack/webpack.dev.js --progress --color",
+    "build": "webpack --config webpack/webpack.prod.js --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manstie/test-django-webpack.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/manstie/test-django-webpack/issues"
+  },
+  "homepage": "https://github.com/manstie/test-django-webpack#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-manifest-plugin": "^3.1.1",
+    "webpack-merge": "^5.7.3"
+  }
+}

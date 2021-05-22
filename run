@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Run both npm watch and django server in same script
+
+npm run watch & 
+python manage.py runserver &
+
+trap "kill -TERM -$$" SIGINT
+
+wait
