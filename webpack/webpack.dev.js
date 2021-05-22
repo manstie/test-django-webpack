@@ -9,9 +9,7 @@ module.exports = merge(common, {
    module: {
     rules: [
       {
-        test: /\.svelte$/,
         use: {
-          loader: "svelte-loader",
           options: {
             compilerOptions: {
               dev: true,
